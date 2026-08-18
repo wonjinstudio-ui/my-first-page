@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1 class="title">김원진</h1>
+      <nav>
+        <a class="nav-link" href="#intro">소개</a>
+        |
+        <a class="nav-link" href="#info">기본 정보</a>
+        |
+        <a class="nav-link" href="#contact">문의하기</a>
+        |
+        <a class="nav-link" href="./goal.html">개발 목표 보기</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="intro" class="section">
+        <h2 class="section-title">간단한 소개</h2>
+        <article>
+          <img
+            class="profile-image"
+            src="./images/images.jpeg"
+            alt="프로필 이미지"
+          />
+          <p class="desc">
+            안녕하세요! <br />
+            웹 개발 기술을 배워 1인 창업가가 되는 것이 목표인 김원진 입니다.
+          </p>
+        </article>
+      </section>
+
+      <section id="info" class="section">
+        <h2 class="section-title">기본 정보</h2>
+        <table class="info-table" border="1">
+          <tr>
+            <th>항목</th>
+            <th>내용</th>
+          </tr>
+          <tr>
+            <th>이름</th>
+            <td>김 아무개</td>
+          </tr>
+          <tr>
+            <th>관심 분야</th>
+            <td>웹 개발, UI/UX 디자인, 마케팅</td>
+          </tr>
+          <tr>
+            <th>취미</th>
+            <td>운동, 독서, 넷플릭스 보기</td>
+          </tr>
+          <tr>
+            <th>목표</th>
+            <td>웹 개발 기술을 배워 1인 창업가 되기</td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">관심 분야</h2>
+        <article>
+          <ul>
+            <li>웹 개발</li>
+            <li>UI/UX 디자인</li>
+            <li>마케팅</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">취미 또는 좋아하는 것</h2>
+        <article>
+          <ul>
+            <li>운동</li>
+            <li>독서</li>
+            <li>넷플릭스 보기</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">앞으로 배우고 싶은 것</h2>
+        <article>
+          <ul>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">참고하고 싶은 웹사이트</h2>
+        <article>
+          <ul>
+            <li>
+              <a href="https://developer.mozilla.org/ko/" target="_blank"
+                >MDN Web Docs</a
+              >
+            </li>
+            <li>
+              <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <h2 class="section-title">문의하기</h2>
+        <article>
+          <form>
+            <div>
+              <label for="name">이름</label>
+              <br />
+              <input
+                class="form-input"
+                id="name"
+                type="text"
+                placeholder="이름을 입력하세요."
+              />
+            </div>
+
+            <br />
+
+            <div>
+              <label for="email">이메일</label>
+              <br />
+              <input
+                class="form-input"
+                id="email"
+                type="email"
+                placeholder="example@email.com"
+              />
+            </div>
+
+            <br />
+
+            <div>
+              <label for="message">문의 내용</label>
+              <br />
+              <textarea
+                class="form-input"
+                id="message"
+                rows="5"
+                cols="40"
+                placeholder="문의 내용을 입력하세요."
+              ></textarea>
+            </div>
+
+            <br />
+
+            <button class="btn" type="submit">문의하기</button>
+          </form>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="footer-link" href="./goal.html">개발 목표 보기</a>
+      <br />
+      Copyright 2026 김원진
+    </footer>
+  </body>
+</html>
